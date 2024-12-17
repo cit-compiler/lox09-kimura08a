@@ -1,1 +1,3 @@
-breakfast  ::=
+sentence ::= dish "with" side "on the side"
+dish ::= "poached eggs" | "scrambled eggs" | "fried eggs" | "omelette" | "pancakes"
+side ::= "English muffin" | "toast" | "bagel" | "hash browns" | "sausage"
