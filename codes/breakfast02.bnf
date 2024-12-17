@@ -1,3 +1,8 @@
-sentence ::= dish "with" side "on the side"
-dish ::= "poached eggs" | "scrambled eggs" | "fried eggs" | "omelette" | "pancakes"
-side ::= "English muffin" | "toast" | "bagel" | "hash browns" | "sausage"
+breakfast ::= protein ( "with" breakfast "on the side" )?
+          | bread 
+
+protein   ::= "really"+ "crispy" "bacon"
+          | "sausage"
+          | ( "scrambled" | "poached" | "fried" ) "eggs" 
+
+bread     ::= "toast" | "biscuits" | "English muffin"
